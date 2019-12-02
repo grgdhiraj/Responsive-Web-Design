@@ -1,0 +1,71 @@
+body {background-color:green}
+h1 {color:white;
+    display: block;
+}
+h2 {color:pink}
+h3 {color:lightblue}
+h4 {color:yellow}
+
+p {color:white; size:11px}
+
+h1 {
+    width: 100%;
+    font-size:medium;
+    font-family:OpenSymbol;
+    transition: all 0.2s;
+}
+
+@media screen and (max-width: 300px) {
+    body{
+        background-color: red;
+    }
+
+}
+@media screen and (min-width: 301px) and (max-width: 767px) {
+    body {
+        background-color: green;
+    }
+    #large {
+        width:66%; float: left;
+    }
+    #medium{
+        width:33%; float:left;}
+}
+@media screen and (min-width: 768px)
+{body{
+        background-color: blue;
+    /*display: flex;*/
+    }
+    body div {
+        float: left;
+        width: 33%;
+    }
+
+}
+
+/*.container{display:flex;
+flex-direction: column}
+#large {font-size:large;}
+#medium {font-size:medium}
+#small {font-size:small}
+
+.large{
+    max-width:768px;
+    height:auto;
+    width:auto;
+}
+
+.medium{
+    max-width:301px;
+    height:auto;
+    width:auto;
+    display:inline-block;
+    clear:both;
+}
+
+.medium{
+    max-width:300px;
+    height:auto;
+    width:auto;
+    display:inline-block;}*/
+
